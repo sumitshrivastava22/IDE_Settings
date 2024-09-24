@@ -1,0 +1,91 @@
+Action	Shortcut
+
+Command Palletes	F1
+
+------- WINDOWS/PANEL -------
+
+File/Solution Explorer	Alt+E
+Git/Source Control	Alt+G
+Debug Windows	Alt+D
+
+------- RUN AND DEBUG -------
+
+Run File(Script)/Project	F5
+Debug File(Script)/Project	Shift+F5
+Select and Debug File(Script)/Project	Ctrl+F5
+Stop Debugging	Alt+F5
+
+Step Over	F10
+Step Into	F11
+Step Out	Shift+F11
+Continue	F5
+
+Toggle Breakpoint	F9
+Conditional Breakpoint	Shift+F9
+Set as Next Statement	Ctrl+F9
+
+Quick Watch	F8
+Add Watch	Shift+F8
+Debug Console	Ctrl+F8
+
+------- CODE NAVIGATION -------
+Goto Line	Ctrl+G
+Goto File	Ctrl+Shift+G
+Goto Symbol(File)	Ctrl+Alt+G
+Goto Symbol(Workspace/Project)	Ctrl+Alt+Shift+G
+
+Goto Definition	F12
+Goto Implementation	Shift+F12
+Find All References	Ctrl+F12
+Focus on References View	Alt+F12
+
+Back	Alt+Left
+Forward	Alt+Right
+
+Bookmark	Ctrl+L, T
+Next Bookmark	Ctrl+L, N
+Previous Bookmark	Ctrl+L, P
+List Bookmarks	Ctrl+L, L
+Bookmarks Explorer	Ctrl+L, E
+Labeled Bookmark	Ctrl+L, Ctrl+T
+Clear Bookmarks	Ctrl+L, Ctrl+C
+
+------- CODE REFACTORING -------
+Rename	F2
+Line Comment	Ctrl+K, C
+Line UnComment	Ctrl+K, U
+Toggle/Add Block Comment	Ctrl+K, Ctrl+C
+Remove Block Comment 	Ctrl+K, Ctrl+U
+Tabify	Ctrl+K, T 
+UnTabify	Ctrl+K, S
+Format Selection	Ctrl+K, F
+Format File	Ctrl+K, Ctrl+F
+
+------- CODE DIFERENCE -------
+Next Difference	Alt+Down
+Previous Difference	Alt+Up
+Revert Change	Ctrl+K, Ctrl+
+
+
+------- CODE INTELLISENSE -------
+QuickActions	Ctrl+.
+
+------- CODE EDITING -------
+Copy	Ctrl+C
+Paste	Ctrl+V
+Paste from Clipboard	Ctrl+Shift+V
+
+Find in File (Prompt)	Ctrl+F
+Match Case	Alt+C
+Match Whole Word	Alt+W
+Find Next	Enter / F3
+Find Previous	Shift+Enter / Shift+F3
+Replace in File (Prompt)	Ctrl+H
+Replace	Enter
+Replace All	Ctrl+Alt+Enter
+
+Find in Files (Prompt)	Ctrl+Shift+F
+Replace in Files (Prompt)	Ctrl+Shift+H
+Toggle File Filter Query	Ctrl+Shift+J
+
+
