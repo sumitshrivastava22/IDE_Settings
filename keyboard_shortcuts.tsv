@@ -2,13 +2,14 @@ Action	Shortcut
 
 Command Palletes	F1
 	
+	
 ------- WINDOWS/PANEL -------	------- WINDOWS/PANEL -------
 
 File/Solution Explorer	Alt+E
 Git/Source Control	Alt+G
 Debug Windows	Alt+D
 	
-
+	
 ------- RUN AND DEBUG -------	------- RUN AND DEBUG -------
 Run File(Script)/Project	Shift+F5
 Debug File(Script)/Project	F5
@@ -30,7 +31,7 @@ Conditional Breakpoint	Shift+F8
 Disable All Breakpoints	Ctrl+F8
 Enable All Breakpoints	Ctrl+Shift+F8
 	
-
+	
 ------- CODE NAVIGATION -------	------- CODE NAVIGATION -------
 Goto Line	Ctrl+G
 Goto File	Ctrl+Shift+G
@@ -58,7 +59,7 @@ UnFold	Ctrl+M  U
 Fold All	Ctrl+M  Ctrl+F
 UnFold All	Ctrl+M  Ctrl+U
 	
-
+	
 ------- CODE REFACTORING -------	------- CODE REFACTORING -------
 Rename	F2
 Change all Occurance	Ctrl+F2
@@ -71,13 +72,13 @@ UnTabify	Ctrl+K  S
 Format Selection	Ctrl+K  F
 Format File	Ctrl+K  Ctrl+F
 	
-
+	
 ------- CODE DIFERENCE -------	------- CODE DIFERENCE -------
 Next Difference	Alt+Down
 Previous Difference	Alt+Up
 Revert Change	Ctrl+K  Ctrl+R
 	
-
+	
 ------- CODE INTELLISENSE -------	------- CODE INTELLISENSE -------
 QuickActions	Ctrl+.
 	
