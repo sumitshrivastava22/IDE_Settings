@@ -44,35 +44,35 @@ Focus on References View	Alt+F12
 Back	Alt+Left
 Forward	Alt+Right
 
-Bookmark	Ctrl+L, T
-Next Bookmark	Ctrl+L, N
-Previous Bookmark	Ctrl+L, P
-List Bookmarks	Ctrl+L, L
-Bookmarks Explorer	Ctrl+L, E
-Labeled Bookmark	Ctrl+L, Ctrl+T
-Clear Bookmarks	Ctrl+L, Ctrl+C
+Bookmark	Ctrl+L  T
+Next Bookmark	Ctrl+L  N
+Previous Bookmark	Ctrl+L  P
+List Bookmarks	Ctrl+L  L
+Bookmarks Explorer	Ctrl+L  E
+Labeled Bookmark	Ctrl+L  Ctrl+T
+Clear Bookmarks	Ctrl+L  Ctrl+C
 
-Fold	Ctrl+M, F
-UnFold	Ctrl+M, U
-Fold All	Ctrl+M, Ctrl+F
-UnFold All	Ctrl+M, Ctrl+U
+Fold	Ctrl+M  F
+UnFold	Ctrl+M  U
+Fold All	Ctrl+M  Ctrl+F
+UnFold All	Ctrl+M  Ctrl+U
 
 ------- CODE REFACTORING -------	
 Rename	F2
 Change all Occurance	Ctrl+F2
-Line Comment	Ctrl+K, C
-Line UnComment	Ctrl+K, U
-Toggle/Add Block Comment	Ctrl+K, Ctrl+C
-Remove Block Comment 	Ctrl+K, Ctrl+U
-Tabify	Ctrl+K, T 
-UnTabify	Ctrl+K, S
-Format Selection	Ctrl+K, F
-Format File	Ctrl+K, Ctrl+F
+Line Comment	Ctrl+K  C
+Line UnComment	Ctrl+K  U
+Toggle/Add Block Comment	Ctrl+K  Ctrl+C
+Remove Block Comment 	Ctrl+K  Ctrl+U
+Tabify	Ctrl+K  T 
+UnTabify	Ctrl+K  S
+Format Selection	Ctrl+K  F
+Format File	Ctrl+K  Ctrl+F
 
 ------- CODE DIFERENCE -------	
 Next Difference	Alt+Down
 Previous Difference	Alt+Up
-Revert Change	Ctrl+K, Ctrl+R
+Revert Change	Ctrl+K  Ctrl+R
 
 
 ------- CODE INTELLISENSE -------	
@@ -98,10 +98,10 @@ Toggle File Filter Query	Ctrl+Shift+J
 
 
 ------- UNIT TESTING -------	
-Run Unit Test	Ctrl+T, T
-Debug Unit Test	Ctrl+T, Ctrl+T
-Run All Unit Tests in File	Ctrl+T, F
-Run All Unit Tests in Workspace	Ctrl+T, A
-Run All Test with coverage	Ctrl+T, Ctrl+A
-Test Explorer	Ctrl+T, E
-Test coverage	Ctrl+T, Ctrl+E
+Run Unit Test	Ctrl+T  T
+Debug Unit Test	Ctrl+T  Ctrl+T
+Run All Unit Tests in File	Ctrl+T  F
+Run All Unit Tests in Workspace	Ctrl+T  A
+Run All Test with coverage	Ctrl+T  Ctrl+A
+Test Explorer	Ctrl+T  E
+Test coverage	Ctrl+T  Ctrl+E
