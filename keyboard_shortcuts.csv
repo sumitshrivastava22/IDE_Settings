@@ -64,7 +64,7 @@ Format File	Ctrl+K, Ctrl+F
 ------- CODE DIFERENCE -------
 Next Difference	Alt+Down
 Previous Difference	Alt+Up
-Revert Change	Ctrl+K, Ctrl+
+Revert Change	Ctrl+K, Ctrl+R
 
 
 ------- CODE INTELLISENSE -------
