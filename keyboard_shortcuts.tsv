@@ -1,49 +1,50 @@
 Action	Shortcut
 
 Command Palletes	F1
-
+	
 ------- WINDOWS/PANEL -------	------- WINDOWS/PANEL -------
 
 File/Solution Explorer	Alt+E
 Git/Source Control	Alt+G
 Debug Windows	Alt+D
+	
 
 ------- RUN AND DEBUG -------	------- RUN AND DEBUG -------
-
 Run File(Script)/Project	Shift+F5
 Debug File(Script)/Project	F5
 Select and Debug File(Script)/Project	Ctrl+F5
 Stop Debugging	Alt+F5
-
+	
 Step Over	F10
 Step Into	F11
 Set as Next Statement	Ctrl+Shift+F10
 Step Out	Shift+F11
 Continue	F5
-
+	
 Quick Watch	F9
 Add Watch	Shift+F9
 Debug Console	Ctrl+F9
-
+	
 Toggle Breakpoint	F8
 Conditional Breakpoint	Shift+F8
 Disable All Breakpoints	Ctrl+F8
 Enable All Breakpoints	Ctrl+Shift+F8
+	
 
 ------- CODE NAVIGATION -------	------- CODE NAVIGATION -------
 Goto Line	Ctrl+G
 Goto File	Ctrl+Shift+G
 Goto Symbol(File)	Ctrl+Alt+G
 Goto Symbol(Workspace/Project)	Ctrl+Alt+Shift+G
-
+	
 Goto Definition	F12
 Goto Implementation	Shift+F12
 Find All References	Ctrl+F12
 Focus on References View	Alt+F12
-
+	
 Back	Alt+Left
 Forward	Alt+Right
-
+	
 Bookmark	Ctrl+L  T
 Next Bookmark	Ctrl+L  N
 Previous Bookmark	Ctrl+L  P
@@ -51,11 +52,12 @@ List Bookmarks	Ctrl+L  L
 Bookmarks Explorer	Ctrl+L  E
 Labeled Bookmark	Ctrl+L  Ctrl+T
 Clear Bookmarks	Ctrl+L  Ctrl+C
-
+	
 Fold	Ctrl+M  F
 UnFold	Ctrl+M  U
 Fold All	Ctrl+M  Ctrl+F
 UnFold All	Ctrl+M  Ctrl+U
+	
 
 ------- CODE REFACTORING -------	------- CODE REFACTORING -------
 Rename	F2
@@ -68,21 +70,23 @@ Tabify	Ctrl+K  T
 UnTabify	Ctrl+K  S
 Format Selection	Ctrl+K  F
 Format File	Ctrl+K  Ctrl+F
+	
 
 ------- CODE DIFERENCE -------	------- CODE DIFERENCE -------
 Next Difference	Alt+Down
 Previous Difference	Alt+Up
 Revert Change	Ctrl+K  Ctrl+R
-
+	
 
 ------- CODE INTELLISENSE -------	------- CODE INTELLISENSE -------
 QuickActions	Ctrl+.
-
+	
+	
 ------- CODE EDITING -------	------- CODE EDITING -------
 Copy	Ctrl+C
 Paste	Ctrl+V
 Paste from Clipboard	Ctrl+Shift+V
-
+	
 Find in File (Prompt)	Ctrl+F
 Match Case	Alt+C
 Match Whole Word	Alt+W
@@ -91,12 +95,12 @@ Find Previous	Shift+Enter / Shift+F3
 Replace in File (Prompt)	Ctrl+H
 Replace	Enter
 Replace All	Alt+A
-
+	
 Find in Files (Prompt)	Ctrl+Shift+F
 Replace in Files (Prompt)	Ctrl+Shift+H
 Toggle File Filter Query	Ctrl+Shift+J
-
-
+	
+	
 ------- UNIT TESTING -------	------- UNIT TESTING -------
 Run Unit Test	Ctrl+T  T
 Debug Unit Test	Ctrl+T  Ctrl+T
