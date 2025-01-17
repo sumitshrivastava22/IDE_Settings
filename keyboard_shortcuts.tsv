@@ -99,7 +99,7 @@ Replace All	Alt+A
 	
 Find in Files (Prompt)	Ctrl+Shift+F
 Replace in Files (Prompt)	Ctrl+Shift+H
-Toggle File Filter Query	Ctrl+Shift+J
+Toggle File Filter Query	Ctrl+Shift+J // Alt+J
 	
 	
 ------- UNIT TESTING -------	------- UNIT TESTING -------
