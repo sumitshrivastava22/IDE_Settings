@@ -42,7 +42,7 @@
       "problemMatcher": "$msCompile"
     },
     {
-      "label": "Add Roslynator References",
+      "label": "Add Analyzers References",
       "type": "shell",
       "command": "powershell",
       "args": [
@@ -50,7 +50,7 @@
         "-ExecutionPolicy",
         "Bypass",
         "-File",
-        "${workspaceFolder}/.vscode/Add-Roslynator.ps1"
+        "${workspaceFolder}/.vscode/Add-Analyzers.ps1"
       ],
       "problemMatcher": [],
       "presentation": {
@@ -59,7 +59,7 @@
       }
     },
     {
-      "label": "Remove Roslynator via Script",
+      "label": "Remove Analyzers via Script",
       "type": "shell",
       "command": "powershell",
       "args": [
@@ -67,7 +67,7 @@
         "-ExecutionPolicy",
         "Bypass",
         "-File",
-        "${workspaceFolder}/.vscode/Remove-Roslynator.ps1"
+        "${workspaceFolder}/.vscode/Remove-Analyzers.ps1"
       ],
       "problemMatcher": []
     }
