@@ -1,18 +1,6 @@
 # Define the XML to add
 $roslynatorXml = @'
-    <PackageReference Include="Roslynator.Analyzers" Version="4.13.1">
-            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-            <PrivateAssets>all</PrivateAssets>
-        </PackageReference>
-        <PackageReference Include="Roslynator.CodeFixes" Version="4.13.1">
-            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-            <PrivateAssets>all</PrivateAssets>
-        </PackageReference>
-        <PackageReference Include="Roslynator.Refactorings" Version="4.13.1">
-            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-            <PrivateAssets>all</PrivateAssets>
-        </PackageReference>
-        <PackageReference Include="SonarAnalyzer.CSharp" Version="1.21.0">
+    <PackageReference Include="SonarAnalyzer.CSharp" Version="1.21.0">
             <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
             <PrivateAssets>all</PrivateAssets>
         </PackageReference>
