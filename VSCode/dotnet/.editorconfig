@@ -3,7 +3,6 @@ root = true
 #### ? Categorized Severity Levels ####
 [*.cs]
 dotnet_analyzer_diagnostic.category-Performance.severity = suggestion
-dotnet_analyzer_diagnostic.category-Roslynator.severity = suggestion
 dotnet_analyzer_diagnostic.category-Design.severity = suggestion
 dotnet_analyzer_diagnostic.category-Usage.severity = suggestion
 dotnet_analyzer_diagnostic.category-Documentation.severity = suggestion
@@ -80,7 +79,7 @@ dotnet_naming_symbols.local_variables.applicable_accessibilities = *
 dotnet_naming_symbols.local_functions.applicable_kinds = local_function
 dotnet_naming_symbols.local_functions.applicable_accessibilities = *
 
-#Inteface Naming
+#Interface Naming
 dotnet_naming_rule.rule_for_interface.symbols = interface
 dotnet_naming_rule.rule_for_interface.style = interface_style
 dotnet_naming_style.interface_style.capitalization = pascal_case
@@ -228,7 +227,7 @@ csharp_prefer_static_anonymous_function = true:suggestion
 csharp_style_conditional_delegate_call = true:suggestion
 dotnet_code_quality_unused_parameters = all:warning
 
-#Paranthesis Preferences
+#Parenthesis Preferences
 dotnet_style_parentheses_in_arithmetic_binary_operators = always_for_clarity:suggestion
 dotnet_style_parentheses_in_relational_binary_operators = always_for_clarity:suggestion
 dotnet_style_parentheses_in_other_binary_operators = always_for_clarity:suggestion
@@ -254,3 +253,45 @@ csharp_style_var_when_type_is_apparent = true:suggestion
 csharp_style_var_elsewhere = false:suggestion
 #### ? Rule Preferences ####
 
+#### ? Roslynator ####
+dotnet_analyzer_diagnostic.category-roslynator.severity = suggestion
+roslynator_analyzers.enabled_by_default = true
+roslynator_refactorings.enabled = true
+roslynator_compiler_diagnostic_fixes.enabled = true
+
+roslynator_accessibility_modifiers = explicit
+roslynator_accessor_braces_style = single_line_when_expression_is_on_single_line
+roslynator_array_creation_type_style = implicit_when_type_is_obvious
+roslynator_arrow_token_new_line = before
+roslynator_binary_operator_new_line = before
+roslynator_blank_line_between_single_line_accessors = false
+roslynator_blank_line_between_using_directives = never
+roslynator_block_braces_style = multi_line
+roslynator_conditional_operator_condition_parentheses_style = include
+roslynator_conditional_operator_new_line = before
+roslynator_configure_await = true
+roslynator_empty_string_style = literal
+roslynator_enum_has_flag_style = operator
+roslynator_equals_token_new_line = before
+roslynator_max_line_length = 150
+roslynator_new_line_at_end_of_file = true
+roslynator_new_line_before_while_in_do_statement = true
+roslynator_null_conditional_operator_new_line = after
+roslynator_null_check_style = pattern_matching
+roslynator_object_creation_parentheses_style = include
+roslynator_object_creation_type_style = implicit_when_type_is_obvious
+roslynator_prefix_field_identifier_with_underscore = true
+roslynator_use_anonymous_function_or_method_group = anonymous_function
+roslynator_use_block_body_when_declaration_spans_over_multiple_lines = true
+roslynator_use_block_body_when_expression_spans_over_multiple_lines = true
+roslynator_use_var_instead_of_implicit_object_creation = true
+roslynator_infinite_loop_style = while
+roslynator_doc_comment_summary_style = multi_line
+roslynator_enum_flag_value_style = shift_operator
+roslynator_blank_line_after_file_scoped_namespace_declaration = true
+roslynator_null_check_style = pattern_matching
+roslynator_trailing_comma_style = omit_when_single_line
+roslynator_use_collection_expression = true
+roslynator_blank_line_between_switch_sections = omit
+roslynator_use_var = when_type_is_obvious
+#### ? Roslynator ####
