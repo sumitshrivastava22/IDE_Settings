@@ -2,7 +2,6 @@ root = true
 
 #### ? Categorized Severity Levels ####
 [*.cs]
-dotnet_analyzer_diagnostic.category-Style.severity = suggestion
 dotnet_analyzer_diagnostic.category-Performance.severity = suggestion
 dotnet_analyzer_diagnostic.category-Roslynator.severity = suggestion
 dotnet_analyzer_diagnostic.category-Design.severity = suggestion
@@ -34,10 +33,19 @@ dotnet_diagnostic.IDE0080.severity = none
 dotnet_diagnostic.IDE0280.severity = warning
 #Remove unnecessary suppression
 dotnet_diagnostic.IDE0079.severity = suggestion
+#Using directive is unnecessary.
+dotnet_diagnostic.IDE0005.severity = warning
 
-##SonarAnalyzer
+##Sonar
+# S1172: Unused method parameters should be removed
+dotnet_diagnostic.S1172.severity = suggestion
+# CA1304: Specify CultureInfo
+dotnet_diagnostic.CA1304.severity = none
 # S1871: Two branches in the same conditional structure should not have exactly the same implementation
 dotnet_diagnostic.S1871.severity = suggestion
+# S1449: Culture should be specified for "string" operations
+dotnet_diagnostic.S1449.severity = none
+
 #### ? Custom Severity Levels ####
 
 #### ? Naming Conventions for C# ####
@@ -245,3 +253,4 @@ csharp_style_var_for_built_in_types = true:suggestion
 csharp_style_var_when_type_is_apparent = true:suggestion
 csharp_style_var_elsewhere = false:suggestion
 #### ? Rule Preferences ####
+
