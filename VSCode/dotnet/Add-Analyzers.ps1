@@ -4,6 +4,22 @@ $roslynatorXml = @'
             <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
             <PrivateAssets>all</PrivateAssets>
         </PackageReference>
+        <PackageReference Include="Roslynator.Analyzers" Version="4.13.1">
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+            <PrivateAssets>all</PrivateAssets>
+        </PackageReference>
+        <PackageReference Include="Roslynator.CodeFixes" Version="4.13.1">
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+            <PrivateAssets>all</PrivateAssets>
+        </PackageReference>
+        <PackageReference Include="Roslynator.Refactorings" Version="4.13.1">
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+            <PrivateAssets>all</PrivateAssets>
+        </PackageReference>
+        <PackageReference Include="StyleCop.Analyzers" Version="1.1.118">
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+            <PrivateAssets>all</PrivateAssets>
+        </PackageReference>
     
 '@
 
@@ -12,9 +28,11 @@ Get-ChildItem -Recurse -Filter *.csproj | ForEach-Object {
   $content = Get-Content $_.FullName -Raw
     
   # Only add if references don't already exist
-  if (-not $content.Contains('Roslynator.Analyzers') -and 
+  if (-not $content.Contains('SonarAnalyzer.CSharp') -and
+    -not $content.Contains('Roslynator.Analyzers') -and 
       -not $content.Contains('Roslynator.CodeFixes') -and
-      -not $content.Contains('Roslynator.Refactorings')) {
+      -not $content.Contains('Roslynator.Refactorings') -and
+      -not $content.Contains('StyleCop.Analyzers')) {
         
     # Use -replace with a regex that captures everything before and after the first match
     # and reconstruct the string.
