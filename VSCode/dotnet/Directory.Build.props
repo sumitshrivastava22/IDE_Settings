@@ -1,0 +1,15 @@
+<Project>
+    <PropertyGroup>
+        <SolutionDir Condition="'$(SolutionDir)' == ''">$(MSBuildThisFileDirectory)</SolutionDir>
+        <MyEffectiveSolutionRoot Condition="'$(MyEffectiveSolutionRoot)' == ''">$(SolutionDir)</MyEffectiveSolutionRoot>
+        <NoWarn>$(NoWarn);AD0001;SA0001</NoWarn>
+    </PropertyGroup>
+
+    <Target Name="VerifySolutionDirProp" BeforeTargets="Build">
+        <Message Text="[Directory.Build.props] SolutionDir: '$(SolutionDir)'" Importance="high" />
+        <Message
+            Text="[Directory.Build.props] MyEffectiveSolutionRoot: '$(MyEffectiveSolutionRoot)'"
+            Importance="high" />
+    </Target>
+
+</Project>
