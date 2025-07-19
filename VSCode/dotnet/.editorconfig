@@ -125,7 +125,8 @@ dotnet_diagnostic.IDE0051.severity = warning    # Unused Private Members
 dotnet_diagnostic.IDE0055.severity = warning    # Fix formatting
 dotnet_diagnostic.IDE0161.severity = warning    # FileScoped Namespace
 dotnet_diagnostic.CA1716.severity = warning     # Identifiers should not match keywords
-dotnet_diagnostic.CA1707.severity = warning    # Identifiers should not contain underscores
+dotnet_diagnostic.CA1707.severity = warning     # Identifiers should not contain underscores
+dotnet_diagnostic.IDE0052.severity = warning    # Remove unread private members
 
 # ? DotNet Analyzers End #
 
@@ -167,11 +168,11 @@ dotnet_diagnostic.SA1402.severity = none        # File may only contain a single
 # ? StyleCop Analyzers End #
 
 # ? Sonar Analyzers Start #
-dotnet_diagnostic.S1871.severity = warning   # Two branches in the same conditional structure should not have exactly the same implementation
+dotnet_diagnostic.S1871.severity = warning      # Two branches in the same conditional structure should not have exactly the same implementation
+dotnet_diagnostic.SA1202.severity = suggestion  # Elements should be ordered by access
+dotnet_diagnostic.S1450.severity = none         # Private fields only used as local variables in methods should become local variables
+dotnet_diagnostic.S1144.severity = none         # Unused private types or members should be removed
 # ? Sonar Analyzers End #
 
-
-
-# SA1402: File may only contain a single type
 
 
